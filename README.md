@@ -30,7 +30,11 @@
 
 ## Xeni Website
 Check out Xeni bot's Website: https://xeni-web.netlify.app
-## invite
+
+
+
+
+## Invite
 [Invite Xeni To Your Sever](https://discord.com/oauth2/authorize?client_id=1076389208551334019&permissions=1799524707446&scope=bot%20applications.commands)
 
 <img src="https://cdn.discordapp.com/attachments/642757845808578591/1086216602443321444/xenibanner.jpg">
