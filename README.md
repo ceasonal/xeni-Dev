@@ -2,7 +2,7 @@
 # Xeni
 
 - An underdevelopment slash-command discord bot made using discord v.14. 
-- It's developed by 448833361092280340 (currently ceasonal#7205).
+- It's developed by 448833361092280340 (currently ceasonal#7205) on discord.
 
 
 
