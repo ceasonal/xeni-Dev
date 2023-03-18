@@ -33,7 +33,6 @@ Check out Xeni bot's Website: https://xeni-web.netlify.app
 
 
 
-
 ## Invite
 [Invite Xeni To Your Sever](https://discord.com/oauth2/authorize?client_id=1076389208551334019&permissions=1799524707446&scope=bot%20applications.commands)
 
