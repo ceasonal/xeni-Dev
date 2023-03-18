@@ -2,7 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('av')
+		.setName('avatar')
 		.setDescription('Displays users avatar.')
         .addUserOption(option => option.setName('user').setDescription('The user\'s avatar to display')),
         async execute(interaction) {
