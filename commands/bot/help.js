@@ -51,7 +51,7 @@ module.exports = {
           .setTitle('Bot Commands!')
           .setDescription(`Info commands to get information about different stuff !`)
           .addFields(
-            {name: `\u200B`, value: "`\ ping \` , `\ server \` , `\ user \` , `\ avatar \` , \n `\ bugreport \` , `\ help ` ", inline: true},
+            {name: `\u200B`, value: "`\ ping \` , `\ server \` , `\ user \` , `\ avatar \` , \n `\ bugreport \` , `\ help ` , `\ upvote `", inline: true},
           )
           .setImage("https://cdn.discordapp.com/attachments/642757845808578591/1086216602443321444/xenibanner.jpg")
           .setThumbnail(user.displayAvatarURL())
@@ -65,7 +65,7 @@ module.exports = {
           .setTitle('Fun Commands!')
           .setDescription(`Fun commands to have fun with your friends !`)
           .addFields(
-            {name: `\u200B`, value: "`\ dice \` , `\ catsay \` , `\ flag \` , `\ anime \` , \n `\ onepiece \`", inline: true},
+            {name: `\u200B`, value: "`\ dice \` , `\ catsay \` , `\ flag \` , `\ anime \` , \n `\ onepiece \` , `\ speedtype \` ", inline: true},
           )
           .setImage("https://cdn.discordapp.com/attachments/642757845808578591/1086216602443321444/xenibanner.jpg")
           .setThumbnail(user.displayAvatarURL())
