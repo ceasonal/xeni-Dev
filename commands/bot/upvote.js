@@ -1,4 +1,4 @@
-const {SlashCommandBuilder, EmbedBuilder} = require('Discord.js');
+const {SlashCommandBuilder, EmbedBuilder} = require('discord.js');
 module.exports={
     data: new SlashCommandBuilder()
     .setName('upvote')
