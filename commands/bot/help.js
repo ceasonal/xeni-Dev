@@ -23,10 +23,16 @@ module.exports = {
               value: 'second_option',
             },
             {
+              label: 'Affection Commands!',
+              description: 'Affection commands for the bot',
+              value: 'third_option',
+            },
+            {
               label: 'Moderation Commands!',
               description: 'Moderation commands for the bot',
-              value: 'third_option',
+              value: 'fourth_option',
             }
+            
           ]),
       );
     const embed = new EmbedBuilder()
@@ -72,6 +78,18 @@ module.exports = {
         await interaction.reply({ embeds: [embed], ephemeral: true });
       }
       else if (interaction.values[0] === 'third_option') {
+        const embed = new EmbedBuilder()
+          .setColor('#A020F0')
+          .setTitle('Affection Commands!')
+          .setDescription(`Affection commands to show your love to your friends !`)
+          .addFields(
+            {name: `\u200B`, value: "`\ hug \` , `\ kiss \` ", inline: true},
+          )
+          .setImage("https://cdn.discordapp.com/attachments/642757845808578591/1086216602443321444/xenibanner.jpg")
+          .setThumbnail(user.displayAvatarURL())
+        await interaction.reply({ embeds: [embed], ephemeral: true });
+      }
+      else if (interaction.values[0] === 'fourth_option') {
         const embed = new EmbedBuilder()
           .setColor('#A020F0')
           .setTitle('Moderation Commands!')
