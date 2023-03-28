@@ -83,7 +83,7 @@ module.exports = {
           .setTitle('Affection Commands!')
           .setDescription(`Affection commands to show your love to your friends !`)
           .addFields(
-            {name: `\u200B`, value: "`\ hug \` , `\ kiss \` ", inline: true},
+            {name: `\u200B`, value: "`\ hug \` , `\ kiss \` , `\ slap \` , `\ holdhands \` , \n `\ high-five \`  ", inline: true},
           )
           .setImage("https://cdn.discordapp.com/attachments/642757845808578591/1086216602443321444/xenibanner.jpg")
           .setThumbnail(user.displayAvatarURL())
