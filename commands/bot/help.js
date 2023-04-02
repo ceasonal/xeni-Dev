@@ -14,7 +14,7 @@ module.exports = {
           .addOptions([
             {
               label: 'Bot Commands!',
-              description: 'Baisc commands for the bot',
+              description: 'Basic commands for the bot',
               value: 'first_option',
             },
             {
@@ -57,7 +57,7 @@ module.exports = {
           .setTitle('Bot Commands!')
           .setDescription(`Info commands to get information about different stuff !`)
           .addFields(
-            {name: `\u200B`, value: "`\ ping \` , `\ server \` , `\ user \` , `\ avatar \` , \n `\ bugreport \` , `\ help ` , `\ upvote `", inline: true},
+            {name: `\u200B`, value: "`\ ping \` , `\ server \` , `\ user \` , `\ avatar \` , \n `\ bugreport \` , `\ help ` , `\ upvote ` , \n `\ suggest \` ", inline: true},
           )
           .setImage("https://cdn.discordapp.com/attachments/642757845808578591/1086216602443321444/xenibanner.jpg")
           .setThumbnail(user.displayAvatarURL())
