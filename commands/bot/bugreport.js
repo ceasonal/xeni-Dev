@@ -12,7 +12,7 @@ module.exports = {
             .setTimestamp()
             .setColor('#A020F0');
         await interaction.reply({ embeds: [embed] });
-        const channel = interaction.client.channels.cache.get("1085957274947817612");
+        const channel = interaction.client.channels.cache.get("Enter channel ID");
         const embed2 = new EmbedBuilder()
             .setTitle('Bug Report')
             .setDescription(`${bug}`)
